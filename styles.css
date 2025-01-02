@@ -1,0 +1,139 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(64, 64, 255);
+}
+
+.container {
+	background-color: white;
+	height: 85vh;
+	width: 380px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+#heading {
+	align-self: center;
+	margin: 30px 0px 10px 0px;
+	font-family: "Rubik Vinyl";
+	text-shadow: -2px 1px black;
+}
+
+.grid {
+	height: 350px;
+	width: 300px;
+	align-self: center;
+	margin: 20px 0px;
+	display: grid;
+	grid-template-columns: auto;
+	row-gap: 9px;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+}
+
+.grid-box {
+	height: 50px;
+	width: 50px;
+	border: 2px solid rgb(165, 159, 159);
+	border-radius: 8px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+}
+
+.correct {
+	background-color: rgb(111, 228, 111);
+	color: white; 
+}
+
+.present {
+	background-color: yellow;
+}
+
+.wrong {
+	background-color: rgb(194, 191, 191);
+	color: white;
+}
+
+.guess {
+	height: 7vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#text-input {
+	height: 6vh;
+	width: 150px;
+	margin-right: 6px;
+	font-size: 35px;
+	text-align: center;
+	text-transform:uppercase;
+}
+
+#submit {
+	height: 6vh;
+	width: 16vw;
+	background-color: antiquewhite;
+	border: 2px solid rgb(198, 185, 169);
+	border-radius: 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#reset {
+	height: 6vh;
+	width: 10vh;
+	margin-left: 6px;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: red;
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+.results-dialog {
+	height: 20vh;
+	width: 40vw;
+	align-self: flex-start;
+	justify-self: center;
+	position: relative;
+	top: 50px;
+	background-color: rgba(240, 248, 255, 0.95);
+	border: none;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.dialog-button {
+	height: 5vh;
+	width: 10vw;
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	align-self: center;
+}
+
+.dialog-para {
+	margin-top: 10px;
+	height: 10vh;
+	font-size: 45px;
+	text-align: center;
+}
