@@ -107,8 +107,8 @@ body{
 }
 
 .results-dialog {
-	height: 20vh;
-	width: 40vw;
+	height: 130px;
+	width: 300px;
 	align-self: flex-start;
 	justify-self: center;
 	position: relative;
