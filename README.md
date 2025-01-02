@@ -1,2 +1,2 @@
 # Wordle-Game
-Made with HTML / CSS / JavaScript
+Beginner Project, Made with HTML / CSS / JavaScript and __DEDICATION !! :)__
