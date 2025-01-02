@@ -121,8 +121,8 @@ body{
 }
 
 .dialog-button {
-	height: 5vh;
-	width: 10vw;
+	height: 35px;
+	width: 70px;
 	background-color: blue;
 	color: white;
 	border: none;
@@ -133,7 +133,7 @@ body{
 
 .dialog-para {
 	margin-top: 10px;
-	height: 10vh;
+	height: 65px;
 	font-size: 45px;
 	text-align: center;
 }
